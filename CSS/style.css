@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(235, 235, 113, 0.747);
+}
+
+.centro {text-align: center;
+   color:rgb(32, 3, 100);
+   font-style: bolder;
+   font-size: 50px;
+  }
+
+.supermercadobarato { width: 600px; max-width: 100%;
+   display: block;
+  margin: 100px auto;
+}
+
+h2{color: rgb(2, 2, 88); text-decoration: underline;
+}
+
+h1{color:rgb(2, 2, 88);
+
+}
+
+.cor {color:rgb(2, 2, 88);
+padding: 100px 0px 50px 0px;
+}
+
+.cores {color:rgb(2, 2, 88); 
+  text-align: center;
+  padding: 50px 0px 10px 0px;
+  border-style: solid;
+  padding: 15px 10px 15px 10px;
+  background-color: #d6deec;
+}
+
+
+.figura::after {
+  content: '';
+  display: inline-block; width: 120px; height: 100px;
+  background-image: url('imgcss/venha.gif');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  margin-left: 10px; 
+  vertical-align: middle; 
+}
+
+.imagem1::after { background-image: url("#");  content: '';
+  display: block; width: 120px; height: 100px;
+  background-image: url('imgcss/limpeza.jpg');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  margin-left: 10px;
+  padding: 0px 0px 50px 0px;
+}
+
+.imagem2::after {
+  content: '';
+  display: block; width: 120px; height: 100px;
+  background-image: url('imgcss/pastelaria.jpg');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  margin-left: 10px; 
+  padding: 0px 0px 50px 0px;
+}
+
+  .imagem3::after {
+  content: '';
+  display: block; width: 120px; height: 100px;
+  background-image: url('imgcss/talho.jpg');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  margin-left: 10px;
+  padding: 0px 0px 100px 0px;
+  }
+
+  #CONTACTOS { color:rgb(69, 1, 78);
+    background-color:rgb(227, 227, 231);
+    justify-content: flex-end;
+    border-style: dotted;
+  }
+
+ol li a {
+    color: inherit;         
+    text-decoration: none;  
+    display: inline-block;  
+    width: 100%;            
+    cursor: pointer;
+}
+
+ol li a:hover {
+    color: #007bff;
+}
+
+.Carrinho{
+  padding: 0px 0px 20px 0px;
+   font-size: 25px;
+}
+.Pagamento{
+  padding: 0px 0px 20px 0px;
+   font-size: 25px;
+}
+.Morada{
+  padding: 0px 0px 40px 0px;
+   font-size: 25px;
+}
+
+.div{
+  padding: 50px 0px 50px 0px;
+}
